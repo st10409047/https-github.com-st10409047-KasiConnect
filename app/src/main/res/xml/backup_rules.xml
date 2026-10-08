@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+
+    <!-- Include important application data -->
+    <include
+        domain="file"
+        path="." />
+
+    <!-- Include shared preferences -->
+    <include
+        domain="sharedpref"
+        path="." />
+
+    <!-- Exclude cache files -->
+    <exclude
+        domain="cache"
+        path="." />
+
+</full-backup-content>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Blue circular background -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,4
+                          A50,50 0,1 0,54,104
+                          A50,50 0,1 0,54,4" />
+
+    <!-- White connection shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M31,54
+                          L48,37
+                          L67,54
+                          L48,71
+                          Z" />
+
+    <!-- Top connection node -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M48,27
+                          A8,8 0,1 0,48,43
+                          A8,8 0,1 0,48,27" />
+
+    <!-- Left connection node -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M24,48
+                          A8,8 0,1 0,24,64
+                          A8,8 0,1 0,24,48" />
+
+    <!-- Right connection node -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M72,48
+                          A8,8 0,1 0,72,64
+                          A8,8 0,1 0,72,48" />
+
+    <!-- Bottom connection node -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M48,65
+                          A8,8 0,1 0,48,81
+                          A8,8 0,1 0,48,65" />
+
+    <!-- Person/community head -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M48,40
+                          A7,7 0,1 0,48,54
+                          A7,7 0,1 0,48,40" />
+
+    <!-- Person/community body -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M36,69
+                          C36,60 41,55 48,55
+                          C55,55 60,60 60,69
+                          Z" />
+
+</vector>

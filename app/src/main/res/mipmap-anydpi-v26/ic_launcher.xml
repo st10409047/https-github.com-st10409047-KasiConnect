@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Blue background circle -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,4 A50,50 0,1 0,54,104 A50,50 0,1 0,54,4" />
+
+    <!-- Connection/network lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,52 L48,35 L67,52 L48,70 Z" />
+
+    <!-- Connection nodes -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M48,27 A8,8 0,1 0,48,43 A8,8 0,1 0,48,27" />
+
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M24,48 A8,8 0,1 0,24,64 A8,8 0,1 0,24,48" />
+
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M72,48 A8,8 0,1 0,72,64 A8,8 0,1 0,72,48" />
+
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M48,65 A8,8 0,1 0,48,81 A8,8 0,1 0,48,65" />
+
+    <!-- Community/connection symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,47
+                          C42,43 45,40 49,40
+                          C53,40 56,43 56,47
+                          C56,51 53,54 49,54
+                          C45,54 42,51 42,47 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,66
+                          C34,59 40,55 49,55
+                          C58,55 64,59 64,66
+                          L64,70
+                          L34,70 Z" />
+
+</vector>
